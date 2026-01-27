@@ -8,7 +8,7 @@ This repository contains my projects built following the front-end devolper path
 
 Click on the image to view the project
 
-<p align="center">
+<p align="start">
   <a href="./single-page%20cv">
     <img width="30%" src="./single-page%20cv/images/CVimage.png">
   </a>
@@ -18,8 +18,8 @@ Click on the image to view the project
 
 Click on the image to view the project
 
-<p align="center">
+<p align="start">
   <a href="./Basic-HTML-Website">
-    <img style="border-radius: 20px;" width="20%" src="./Basic-HTML-Website/images/PD.png">
+    <img width="15%" src="./Basic-HTML-Website/images/PD.png">
   </a>
 </p>
