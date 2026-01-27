@@ -20,6 +20,6 @@ Click on the image to view the project
 
 <p align="center">
   <a href="./Basic-HTML-Website">
-    <img width="30%" src="./Basic-HTML-Website/images/PD.png">
+    <img style="border-radius: 20px;" width="20%" src="./Basic-HTML-Website/images/PD.png">
   </a>
 </p>
