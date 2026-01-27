@@ -2,7 +2,7 @@
 
 This repository contains my projects built following the front-end devolper path on roadmap.sh
 
-##List
+## List
 
 <a href="https://roadmap.sh/projects/single-page-cv">Single-Page Cv Project on roadmap.sh</a>
 
