@@ -1,0 +1,94 @@
+body {
+    font: Roboto;
+    padding-bottom: 300px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info img{
+    height: 10em;
+    width: 10em;
+    border-radius: 30em;
+    align-self: center;
+}
+
+.info h1, h3 {
+    align-self: center;
+}
+
+h3 {
+    color: green;
+}
+
+
+#university{
+    font-family: Roboto;
+    font-size: 18px;
+    color: blue;
+}
+
+#university span{
+    color: rgb(210, 0, 0);
+}
+
+.experience{
+    display: inline-block;
+    width: 35em;
+    text-align: justify;
+}
+
+#workExperience{
+    font-size: 18px;
+    color: blue;
+}
+
+.across a{
+    font-family: Roboto, Arial;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 17px;
+}
+
+#github{
+    background-color: black;
+}
+
+#github a{
+    color: white;
+}
+
+#github span{
+    color: rgb(84, 133, 248);
+}
+
+#linkedin{
+    background-color: rgb(40, 126, 231);    
+}
+
+#linkedin a{
+    color: white;
+}
+
+#linkedin span{
+    color: black;
+}
+
+.across button{
+    display: inline-block;
+    margin-left: 20px;
+    border: 1px solid #333;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    position: relative;
+}
+
+.across button:active{
+    top: 4px;
+    left: 4px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.6);
+    border-top-left-radius: 0;
+}
+
