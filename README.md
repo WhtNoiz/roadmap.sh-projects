@@ -19,7 +19,7 @@ Click on the image to view the project
 Click on the image to view the project
 
 <p align="start">
-  <a href="./Basic-HTML-Website">
+  <a href="./Basic-HTML-Website/basic-html-website.html">
     <img width="15%" src="./Basic-HTML-Website/images/PD.png">
   </a>
 </p>
@@ -29,7 +29,7 @@ Click on the image to view the project
 Click on the image to view the project
 
 <p align="start">
-  <a href="./Basic-HTML-Website">
+  <a href="./Basic-HTML-Website/stylesheet.css">
     <img width="15%" src="./Basic-HTML-Website/images/PersonalPortfolio.png">
   </a>
 </p>
