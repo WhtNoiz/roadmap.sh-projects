@@ -23,3 +23,13 @@ Click on the image to view the project
     <img width="15%" src="./Basic-HTML-Website/images/PD.png">
   </a>
 </p>
+
+<a href="https://roadmap.sh/projects/portfolio-website">Personal Portfolio on roadmap.sh</a>
+
+Click on the image to view the project
+
+<p align="start">
+  <a href="./Basic-HTML-Website">
+    <img width="15%" src="./Basic-HTML-Website/images/PersonalPortfolio.png">
+  </a>
+</p>
