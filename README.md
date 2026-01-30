@@ -30,6 +30,11 @@ Click on the image to view the project
 
 <p align="start">
   <a href="./Basic-HTML-Website/stylesheet.css">
-    <img width="25%" src="./Basic-HTML-Website/images/PersonalPortfolio.png">
+    <img width="25%" src=".Changelog Component/images/">
   </a>
 </p>
+
+<a href="https://roadmap.sh/projects/changelog-component">Changelog Component on roadmap.sh</a>
+
+
+
