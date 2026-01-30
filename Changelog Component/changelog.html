@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Changelog Component</title>
+        <meta name="description" content="Changelog Component project on roadmap.sh>">
+        <meta name="title" content="Changelog Component">
+        <meta name="robots" content="index">
+        <meta property="og:title" content="Changelog Component">
+        <meta property="og:description" content="Changelog Component project on roadmap.sh">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <style>
+
+            body{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            main{
+                border: 2px solid black;
+                border-radius: 40px;
+                margin: 30px;
+                padding: 20px;
+            }
+
+
+            header{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            h1{
+                font-family: Roboto, Arial;
+                font-weight: 400;
+            }
+
+            header p{
+                font-family: Roboto, Arial;
+                color: grey;
+                margin-top: 0;
+            }
+
+            .content{
+                margin-top: 25px;
+                display: flex;
+                display: flex;
+                justify-content: center;
+            }
+
+            .timeline{
+                height: 550px;
+                width: 98px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                position: relative;
+            }
+
+            img {
+                height: 550px;
+                width: 100px;
+                z-index: 100;
+                }
+
+            .dates{
+                margin-top: 15px;
+                display: flex;
+                flex-direction: column;
+                height: 500px;
+                width: 200px;
+                justify-content: space-between;
+                gap: 27px;
+            }
+        
+            .whatAppened{
+                margin-top: 15px;
+                display: flex;
+                flex-direction: column;
+                height: 500px;
+                justify-content: space-between;
+                gap: 27px;
+            }
+
+            .dates p{
+                font-family: Roboto, Arial;
+                text-align: right;
+                color: grey;
+            }
+
+            .whatAppened p{
+                font-family: Roboto, Arial;
+                text-align: left;
+                margin-left: 0;
+            }
+
+            .points{
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 66px;
+            }
+
+            .pnt{
+                z-index: 500;
+                background-color: black;
+                border: 1px solid black;
+                height: 10px;
+                width: 10px;
+                border-radius: 10px;
+            }
+
+            button{
+                margin-top: 1em;
+                margin-left: 30%;
+                padding: 15px 30px 15px 30px;
+                color: white;
+                background-color: black;
+                border-radius: 15px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <main>
+        <header>
+            <h1>Changelog</h1>
+            <p>Here's everything we have shipped in the past few days</p>
+        </header>
+        <div class="content">
+            <section class="dates">
+                <p>September 3, 2024</p>
+                <p>August 28, 2024</p>
+                <p>August 25, 2025</p>
+                <p>August 22, 2024</p>
+                <p>August 15, 2024</p>
+                <p>August 10, 2024</p>
+                <p>August 1, 2024</p>
+            </section>
+            <section class="timeline">
+                <img src="images/verticalline.png" alt="You should see a vertical line here">
+                <div class="points">
+                    <div class="pnt"></div>
+                    <div class="pnt"></div>
+                    <div class="pnt"></div>
+                    <div class="pnt"></div>
+                    <div class="pnt"></div>
+                    <div class="pnt"></div>
+                    <div class="pnt"></div>
+                </div>
+            </section>
+            <section class="whatAppened">
+                <p>Announcing Projects on Frontend Roadmap</p>
+                <p>Build your learning habits with learning streaks</p>
+                <p>Git and GitHub Roadmap</p>
+                <p>Submit your project solution and get feedback</p>
+                <p>Backend Projects Ideas</p>
+                <p>Redis roadmap</p>
+                <p>Changelog page to help you stay in the loop</p> 
+            </section>
+        </div>
+        <button>Visit Complete Changelog</button>
+    </main>
+    </body>
+</html>
