@@ -10,7 +10,7 @@ Click on the image to view the project
 
 <p align="start">
   <a href="./single-page%20cv">
-    <img width="25%" src="./single-page%20cv/images/CVimage.png">
+    <img width="25%" height="25%" src="./single-page%20cv/images/CVimage.png">
   </a>
 </p>
 
@@ -20,7 +20,7 @@ Click on the image to view the project
 
 <p align="start">
   <a href="./Basic-HTML-Website/basic-html-website.html">
-    <img width="25%" src="./Basic-HTML-Website/images/PD.png">
+    <img width="25%" height="25%" src="./Basic-HTML-Website/images/PD.png">
   </a>
 </p>
 
@@ -30,7 +30,7 @@ Click on the image to view the project
 
 <p align="start">
   <a href="./Basic-HTML-Website/stylesheet.css">
-    <img width="25%" src="./Basic-HTML-Website/images/PersonalPortfolio.png">
+    <img width="25%" height="25%" src="./Basic-HTML-Website/images/PersonalPortfolio.png">
   </a>
 </p>
 
@@ -38,7 +38,7 @@ Click on the image to view the project
 
 <p align="start">
   <a href="./Basic-HTML-Website/stylesheet.css">
-    <img width="20%" src="./Changelog Component/images/changelogimage.png">
+    <img width="25%" height="25%" src="./Changelog Component/images/changelogimage.png">
   </a>
 </p>
 
