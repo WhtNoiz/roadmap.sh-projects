@@ -36,5 +36,11 @@ Click on the image to view the project
 
 <a href="https://roadmap.sh/projects/changelog-component">Changelog Component on roadmap.sh</a>
 
+<p align="start">
+  <a href="./Basic-HTML-Website/stylesheet.css">
+    <img width="25%" src=".Changelog Component/images/changelogimage.png">
+  </a>
+</p>
+
 
 
