@@ -30,7 +30,7 @@ Click on the image to view the project
 
 <p align="start">
   <a href="./Basic-HTML-Website/stylesheet.css">
-    <img width="25%" src=".Changelog Component/images/">
+    <img width="25%" src="./Basic-HTML-Website/images/PersonalPortfolio.png">
   </a>
 </p>
 
@@ -38,7 +38,7 @@ Click on the image to view the project
 
 <p align="start">
   <a href="./Basic-HTML-Website/stylesheet.css">
-    <img width="25%" src=".Changelog Component/images/changelogimage.png">
+    <img width="25%" src="./Changelog Component/images/changelogimage.png">
   </a>
 </p>
 
