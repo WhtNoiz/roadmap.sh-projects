@@ -4,7 +4,7 @@ This repository contains my projects built following the front-end devolper path
 
 ## List
 
-<h3>Click on the images to view the project</h3>
+<h3>Click on the images to view the projects</h3>
 
 <a href="https://roadmap.sh/projects/single-page-cv">Single-Page Cv Project on roadmap.sh</a>
 
