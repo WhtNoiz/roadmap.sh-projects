@@ -38,7 +38,7 @@ This repository contains my projects built following the front-end devolper path
   </a>
 </p>
 
-<a href="https://roadmap.sh/projects/testimonial-cards">Changelog Component on roadmap.sh</a>
+<a href="https://roadmap.sh/projects/testimonial-cards">Testimonial Cards on roadmap.sh</a>
 
 <p align="start">
   <a href="./TestimonialCards/Testimonials/html">
