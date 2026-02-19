@@ -41,7 +41,7 @@ This repository contains my projects built following the front-end devolper path
 <a href="https://roadmap.sh/projects/testimonial-cards">Testimonial Cards on roadmap.sh</a>
 
 <p align="start">
-  <a href="./TestimonialCards/Testimonials/html">
+  <a href="./TestimonialCards/Testimonials.html">
     <img width="25%" height="25%" src="./TestimonialCards/LookAtThis.png">
   </a>
 </p>
