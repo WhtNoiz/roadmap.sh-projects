@@ -1,0 +1,276 @@
+:root{
+    font-family: Roboto, Arial;
+}
+
+body{
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.testimonial-card{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-card2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 1.3em;
+}
+
+
+#user1, #user2{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-box{
+    width: 80%;
+    align-self: flex-start;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bottom-box2{
+    width: 80%;
+    align-self: flex-start;
+    margin: 0 1rem 1rem 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.img-box{
+    margin:3% 2% 0 4%;
+    width: 5rem;
+    height: 5rem;
+}
+
+.user-info{
+    justify-content: center;
+    line-height: 50%;
+}
+
+.user-info p{
+    font-size: clamp(10px, 2vw, 15px);
+}
+
+
+.text-box{
+    text-align: justify;
+    font-size: clamp(14px, 2vw, 22px);
+    padding: 0.2rem;
+    position: relative;
+    width: 95%;
+    background-color: black;
+    color: white;
+    border-radius: 1.3em;
+}
+
+.text-box::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 40px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid black;
+}
+
+.text-box p {
+    margin: 2%;
+}
+
+.text-box2{
+    text-align: justify;
+    font-size: clamp(14px, 2vw, 22px);
+    padding: 0.2rem;
+    width: 95%;
+}
+
+
+.huge-testimonial-card{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.huge-img-box{
+    aspect-ratio: 1/1;
+    flex: 1
+}
+
+#user3{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    aspect-ratio: 1/1;
+}
+
+.huge-right-box{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+#stars{
+    margin: 1rem 1rem 0 1rem;
+    width: 20%;
+}
+
+.huge-user-info{
+    line-height: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.huge-user-info p {
+    font-size: clamp(15px, 2vw, 20px);
+    color: grey;
+    align-self: flex-start;
+    margin-left: 2rem;
+}
+
+.huge-user-info h1 {
+    font-size: clamp(15px, 2vw, 30px);
+    align-self: flex-start;
+    margin-left: 2rem;
+}
+
+.huge-text-box{
+    display: flex;
+    margin: 0 1.2rem 0 1.2rem ;
+    text-align: justify;
+    justify-items: center;
+    align-items: center;
+}
+
+.huge-text-box p {
+    font-size: clamp(15px, 2vw, 28px);;
+}
+
+.other-cards{
+    margin: 15px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px black;
+    border-radius: 25px;
+}
+
+.card-textbox{
+    align-self: center;
+    flex: 1;
+    font-size: clamp(15px, 2vw, 28px);
+}
+
+.user-selector{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center; 
+    gap: 1rem;
+}
+
+.selected-user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: clamp(13px, 2vw, 27px);
+    gap: 0;
+    object-fit: contain;
+    
+}
+
+.selected-user h6{
+    margin: 5px;
+}
+
+#user4, #user5{
+    width: clamp(40px, 6vw, 80px); 
+    height: auto;               
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    display: block;
+}
+
+.user-selector button{
+    align-self: center;
+    width: clamp(30px, 2.5vw, 50px);
+    height:  clamp(20px, 1.8vw, 40px);
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.18s;
+    justify-content: center;
+}
+
+.user-selector button:hover{
+   opacity: 0.5;
+
+}
+
+.user-selector button:active{
+    opacity: 0.2;
+}
+
+.user-selector button img{
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+@media (max-width: 710px) {
+    header{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .huge-testimonial-card {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .huge-img-box{
+        padding: 20% 15% 0 15%;
+        flex: none;
+    }
+
+    .huge-right-box {
+        width: 100%;
+        flex: none;
+    }
+
+    .other-cards {
+        flex-direction: column;
+    }
+
+    .user-selector {
+        gap: 0.5rem;
+    }
+}

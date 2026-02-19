@@ -1,0 +1,168 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Testimonial Cards project from Roadmap.sh Frontend Developer Career Path">
+        <meta name="title" content="Testimonial Cards">
+        <title>Testimonial Cards</title>
+        <link rel="stylesheet" href="Testimonials.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <meta property="og:title" content="Customer Testimonials">
+        <meta property="og:description" content="Read what our satisfied customers say">
+        <meta property="og:image" content="https://randomuser.me/api">
+        <meta property="og:type" content="website">
+    </head>
+    <body>
+        <header>
+        <div class="testimonial-card">
+            <div class="text-box">
+                <p>This product genuinely exceeded my expectations in every possible way. After several weeks of daily use, I can confidently say it has become an essential part of my routine. I would strongly recommend it to anyone looking for something dependable, well-crafted, and truly worth the investment.</p>
+            </div> 
+            <div class="bottom-box">
+                <div class="img-box">   
+                <img id="user1">
+                </div>
+                <div class="user-info">
+                <h3>John Doe</h3>
+                <p>Junior Frontend Developer</p>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-card2">
+            <div class="text-box2">
+                <p>This product quickly became one of my favorites after just a few uses. The quality is impressive, and the performance has been consistently reliable. It’s easy to use, thoughtfully designed, and genuinely improves my daily routine. I would definitely recommend it to anyone looking for something dependable and well-made.</p>
+            </div> 
+            <div class="bottom-box2">
+                <div class="img-box"> 
+                <img id="user2">
+                </div>
+                <div class="user-info">
+                <h3>Jane Smith</h3>
+                <p>Senior Frontend Developer</p>
+                </div>
+            </div>
+        </div>
+        </header>
+        <main>
+            <div class="huge-testimonial-card">
+                <div class="huge-img-box">
+                    <img id="user3">
+                </div>
+                <div class="huge-right-box">
+                    <img id="stars" src="5stars.png" alt="5 stars rating">
+                    <div class="huge-user-info">
+                        <h1>Cameron Clark</h1>
+                        <p>Engineering Manager</p>
+                    </div>
+                    <div class="huge-text-box">
+                        <p>After using this for a while, I can confidently say it performs exceptionally well. The design is practical, the features are useful, and everything works together seamlessly. It has simplified several tasks for me and made the overall process more enjoyable!</p>
+                    </div>
+                </div>
+            </div>
+            <section class="other-cards">
+                <div class="card-textbox">
+                <p>"The design is sleek and user-friendly. I love it!"</p>
+                </div>
+                <div class="user-selector">
+                    <button id="btn-left"><img src="arrowleft.png"></button>
+                        <div class="selected-user">
+                            <img id="user4">
+                            <h6>Michael Brown</h6>
+                        </div>
+                    <button id="btn-right"><img src="arrowright.png"></button>
+                </div>
+            </section>
+    </main>
+
+    </body>
+    <script>
+
+        const usersCards = [
+        {
+            name: "Michael Brown",
+            img: "",
+            text: "The design is sleek and user-friendly. I love it!"
+        },
+        {
+            name: "Sara Davis",
+            img: "",
+            text: "This product has exceeded my expectations in every way."
+        },
+        {
+            name: "Emily Johnson",
+            img: "",
+            text: "This product is absolutely amazing! It has changed the way I work every day."
+        },
+        {
+            name: "David Lee",
+            img: "",
+            text: "Reliable, intuitive, and well-designed. I couldn’t ask for more from a tool like this."
+        },
+        {
+            name: "Olivia Martinez",
+            img: "",
+            text: "A fantastic experience from start to finish. The performance and design are top-notch."
+        },
+        {
+            name: "James Wilson",
+            img: "",
+            text: "It’s easy to use, visually appealing, and highly functional. I recommend it to everyone."
+        },
+        {
+            name: "Praire Dog",
+            img:"",
+            text:"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!"
+        }
+        ];
+
+        let index = 0;
+
+
+        fetch('https://randomuser.me/api/?gender=female&results=4')
+            .then(response => response.json())
+            .then(data => {
+                const femUsers = data.results;
+                document.getElementById('user2').src = femUsers[0].picture.large;
+                usersCards[1].img = femUsers[1].picture.large;
+                usersCards[2].img = femUsers[2].picture.large;
+                usersCards[4].img = femUsers[3].picture.large;
+            })
+            .catch(error => console.error('Error fetching femUsers data:', error));
+
+        fetch('https://randomuser.me/api/?gender=male&results=4')
+            .then(response => response.json())
+            .then(data => {
+                const maleUsers = data.results;
+                document.getElementById('user1').src = maleUsers[0].picture.large;
+                usersCards[0].img = maleUsers[1].picture.large;
+                usersCards[3].img = maleUsers[2].picture.large;
+                usersCards[5].img = maleUsers[3].picture.large;
+                document.getElementById('user4').src = usersCards[0].img;
+            })
+            .catch(error => console.error('Error fetching maleUsers data:', error));
+
+        document.getElementById('user3').src = 'https://thispersondoesnotexist.com';
+
+        usersCards[6].img = "praire-dog.png";
+
+
+        document.getElementById('btn-right').addEventListener('click', () => {
+        index = (index + 1) % usersCards.length;
+        document.getElementById('user4').src = usersCards[index].img;
+        document.querySelector('.selected-user h6').textContent = usersCards[index].name;
+        document.querySelector('.card-textbox p').textContent = usersCards[index].text;
+        });
+
+        document.getElementById('btn-left').addEventListener('click', () => {
+        index = (index - 1 + usersCards.length) % usersCards.length;
+        document.getElementById('user4').src = usersCards[index].img;
+        document.querySelector('.selected-user h6').textContent = usersCards[index].name;
+        document.querySelector('.card-textbox p').textContent = usersCards[index].text;
+        });
+
+
+    </script>
+
+
+</html>
