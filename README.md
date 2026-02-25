@@ -46,5 +46,12 @@ This repository contains my projects built following the front-end devolper path
   </a>
 </p>
 
+<a href="https://roadmap.sh/projects/simple-tabs">Tabs on roadmap.sh</a>
+
+<p align="start">
+  <a href="./tabs/index.html">
+    <img width="25%" height="25%" src="./tabs/Tabs.png">
+  </a>
+</p>
 
 
