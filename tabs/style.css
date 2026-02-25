@@ -1,0 +1,101 @@
+:root{
+    font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', monospace;
+    font-size: clamp(15px, 2vw, 20px);
+}
+
+body{
+    margin: 20px;
+}
+
+.tabsContainer{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+    border: solid 2px black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.tabsHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    margin: 0 10px 0 10px;
+    gap: 25px;
+}
+
+
+.tabsSelector.active{
+    background-color: white;
+    border-bottom: solid 3px black;
+    color: black;
+}
+
+.tabsSelector{
+    height: 100%;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    font-weight: 200;
+    color: rgb(128, 128, 128);
+    background-color: white;
+    transition: all 0.3s;
+}
+
+.tabsSelector:not(.active):hover{
+    background-color: rgb(189, 189, 189);
+    border-radius: 15px;
+    opacity: 0.7;
+}
+
+.tabsSelector:not(.active):active{
+    opacity: 0.4;
+}
+
+.tabsContent{
+    margin: 20px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mainContentDiv{
+    width: 100%;
+    background-color: black;
+    margin: 0 20px 0 20px;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContent{
+    margin: 10% 0 10% 0;
+    align-self: center;
+    justify-self: center;
+}
+
+.mainContentlG{
+    margin: 5% 0 2% 0;
+    align-self: center;
+    justify-self: center;
+}
+
+
+#littleGuy{
+    border-radius: 200px;
+    cursor: pointer;
+    align-self: center;
+    height: 250px;
+    width: 250px;
+    justify-self: center;
+    margin-bottom: 5%;
+    object-fit: cover;
+}
+
+
