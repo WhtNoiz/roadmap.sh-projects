@@ -19,7 +19,7 @@ This repository contains my projects built following the front-end developer pat
       <a href="https://roadmap.sh/projects/basic-html-website">Basic HTML Website on roadmap.sh</a>
       <br>
       <a href="./Basic-HTML-Website/basic-html-website.html">
-        <img src="./Basic-HTML-Website/images/PD.png" width="80%">
+        <img src="./Basic-HTML-Website/images/PD.png" width="60%">
       </a>
     </td>
   </tr>
