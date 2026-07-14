@@ -6,7 +6,7 @@ This repository contains my projects built following the front-end developer pat
 
 <h3>Click on the images to view the projects</h3>
 
-<table>
+<table style="width: 100%; table-layout: fixed;">
   <tr>
     <td align="center" width="50%">
       <a href="https://roadmap.sh/projects/single-page-cv">Single-Page CV Project on roadmap.sh</a>
